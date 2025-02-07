@@ -14,7 +14,7 @@ export default function Intro() {
       <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-4xl bg-white shadow-lg rounded-lg p-6 transform hover:scale-105 transition duration-300 ease-in-out">
         <div className="flex flex-col gap-6 w-full lg:w-3/5">
           <h1 className="text-5xl font-extrabold text-blue-700 mb-2 hover:underline transition-all duration-300 ease-in-out transform hover:text-blue-500 hover:scale-105">
-            Hi,👋 I'm sufyan
+            Hi,👋 I&apos;m sufyan
           </h1>
 
           <p className="text-base font-semibold text-gray-900 leading-relaxed p-4 bg-gray-200 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">

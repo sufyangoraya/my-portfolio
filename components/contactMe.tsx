@@ -11,7 +11,6 @@ import {
 import Link from 'next/link';
 import { Button } from './ui/button';
 // import{fa6} from '@radix-ui/react-icons';
-import { Fa6 } from 'react-icons/fa6';
 
 export default function ContactMe() {
   return (
