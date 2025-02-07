@@ -1,6 +1,5 @@
 // components/ContactMe.tsx 
 import React from 'react';
-import { FaFacebook, FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 import {
   Card,
