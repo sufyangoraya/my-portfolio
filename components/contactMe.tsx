@@ -18,19 +18,19 @@ export default function ContactMe() {
       <h1 className="text-4xl font-bold mb-8 text-gray-800 hover:underline">Contact Me</h1>
 
       {/* Card wrapping the form */}
-      <Card className="w-full max-w-2xl shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+      <Card className="w-full max-w-2xl shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition from-purple-600 via-blue-400 to-pink-500 p-8 duration-300 ease-in-out">
         <CardHeader className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 text-center">
           <CardTitle className="text-2xl font-semibold">Send a Message</CardTitle>
         </CardHeader>
         
-        <form className="p-8 bg-white rounded-b-lg shadow-inner">
+        <form className="p-8 from-purple-600 via-blue-400 to-pink-500 p-8 rounded-b-lg shadow-inner">
           <CardContent>
             <div className="mb-6">
               <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="name">
                 Name
               </label>
               <input
-                className="shadow appearance-none border border-gray-300 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                className="shadow appearance-none border border-gray-800 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                 id="name"
                 type="text"
                 placeholder="Your Name"
@@ -43,7 +43,7 @@ export default function ContactMe() {
                 Email
               </label>
               <input
-                className="shadow appearance-none border border-gray-300 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                className="shadow appearance-none border border-gray-800 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                 id="email"
                 type="email"
                 placeholder="Your Email"
@@ -56,7 +56,7 @@ export default function ContactMe() {
                 Message
               </label>
               <textarea
-                className="shadow appearance-none border border-gray-300 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                className="shadow appearance-none border border-gray-800 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                 id="message"
                 placeholder="Your Message"
                 rows={6}

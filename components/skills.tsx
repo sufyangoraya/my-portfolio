@@ -44,20 +44,16 @@
 //         </ul>
 //         <br />
 //         <center>
-//           <div>
-//             <Button asChild>
-//               <Link href="#projects" className="bg-gradient-to-r from-blue-600 to-purple-700 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-600">
-//                 Projects
-//               </Link>
-//             </Button>
-//           </div>
+          
 //         </center>
 //       </div>
 //     </div>
 //   );
 // }
 
-import { FaHtml5, FaCss3Alt, FaJs, FaReact ,FaFigma} from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact ,FaFigma, FaPython} from 'react-icons/fa';
+import { Button } from './ui/button';
+import { Link } from 'lucide-react';
 export default function Skills() {
   return (
     <div className="flex flex-row items-center space-x-10 justify-center min-h-screen bg-gradient-to-br from-purple-600 via-blue-400 to-pink-500 p-8">
@@ -82,6 +78,11 @@ export default function Skills() {
         <p className="mt-2 text-stone-700 text-xl font-semibold">Next.js</p>
      
       </div>
+      <div className="transition transform hover:scale-150 hover:bg-gradient-to-br from-purple-500 via-blue-400 to-pink-500 duration-300 shadow-md rounded-lg p-4">
+        <FaPython className="text-6xl text-stone-700" /> 
+        <p className="mt-2 text-stone-700 text-xl font-semibold">python</p>
+     
+      </div>
       
     </div>
     
@@ -89,7 +90,7 @@ export default function Skills() {
 }
 
 
-// className="transition transform hover:scale-105 bg-white shadow-md rounded-lg p-4"
+// const className="transition transform hover:scale-105 bg-white shadow-md rounded-lg p-4"
 // className="transition transform hover:scale-105 bg-white shadow-md rounded-lg p-4"
 // className="transition transform hover:scale-105 bg-white shadow-md rounded-lg p-4"
 // className="transition transform hover:scale-105 bg-white shadow-md rounded-lg p-4"
