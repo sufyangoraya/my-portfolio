@@ -52,8 +52,8 @@
 // }
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact ,FaFigma, FaPython} from 'react-icons/fa';
-import { Button } from './ui/button';
-import { Link } from 'lucide-react';
+// import { Button } from './ui/button';
+// import { Link } from 'lucide-react';
 export default function Skills() {
   return (
     <div className="flex flex-row items-center space-x-10 justify-center min-h-screen bg-gradient-to-br from-purple-600 via-blue-400 to-pink-500 p-8">
