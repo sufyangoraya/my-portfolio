@@ -10,11 +10,24 @@ export default function Education() {
       
       <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-4xl transform hover:scale-105 transition duration-300 ease-in-out">
         <ul className="space-y-6">
+          
+        <li className="border-b pb-4">
+            <h3 className="text-2xl font-semibold text-gray-700">CAE(Certified Agentic And Robotics AI Engineer)</h3>
+            <p className="text-gray-500">PIAIC , 2025 - to be continue--</p>
+            <p className="text-gray-800 mt-2">Focused on mathematics and physics, with active participation in science fairs.</p>
+          </li>
+          
           <li className="border-b pb-4">
+            <h3 className="text-2xl font-semibold text-gray-700">Artifical intelligence , web-3 , Metaverse</h3>
+            <p className="text-gray-500">GIAIC , 2024 - to be continue--</p>
+            <p className="text-gray-800 mt-2">Focused on mathematics and physics, with active participation in science fairs.</p>
+          </li>
+        <li className="border-b pb-4">
             <h3 className="text-2xl font-semibold text-gray-700">Intermediate in Pre-Engineering</h3>
             <p className="text-gray-500">GOVT New Ali Garh Degree college , 2022 - 2023</p>
             <p className="text-gray-800 mt-2">Focused on mathematics and physics, with active participation in science fairs.</p>
           </li>
+
 
           <li className="border-b pb-4">
             <h3 className="text-2xl font-semibold text-gray-700">Matric in Science Group</h3>
